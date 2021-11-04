@@ -1,0 +1,9 @@
+{
+  "type": "UiSdlConnected<UiSdlImage>",
+  "component": {
+    "horizontalAlign": "center",
+    "size": "medium",
+    "className": "block",
+    "url": "/assets/images/movie2.png"
+  }
+}

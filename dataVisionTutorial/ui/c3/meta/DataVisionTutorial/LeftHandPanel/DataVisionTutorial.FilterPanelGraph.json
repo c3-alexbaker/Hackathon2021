@@ -1,0 +1,67 @@
+{
+  "type": "UiSdlConnected<UiSdlFilterPanel>",
+  "component": {
+    "dataSpec": {
+      "fieldSets": [
+        {
+          "title": "DataVisionTutorial.FilterPanelGraph.fieldSets.title",
+          "fields": [
+            {
+              "type": "UiSdlFieldSetFilterFieldSetting",
+              "fieldName": "id",
+              "label": "DataVisionTutorial.FilterPanelGraph.fields.name.label",
+              "hintText": "DataVisionTutorial.FilterPanelGraph.fields.name.hintText",
+              "filterElement": {
+                "type": "UiSdlSingleSearchFilterField",
+                "inputElement": {
+                  "dataSpec": {
+                    "dataType": {
+                      "typeName": "MovieCharacter"
+                    },
+                    "actionName": "fetch",
+                    "args": {
+                      "spec": {
+                        "order": "name",
+                        "include": "id, name"
+                      }
+                    },
+                    "dataPath": "objs",
+                    "valueField": "id",
+                    "displayField": "name"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "filterButtonText": "Filter",
+    "clearButtonText": "Clear"
+  },
+  "effectTriggers": [
+    {
+      "trigger": "DataVisionTutorial.FilterPanelGraph.FILTER_SUBMIT",
+      "effectType": "FilterGraphEpic",
+      "payloadStrategy": "MERGE",
+      "payload": {
+        "graphId": "DataVisionTutorial.Graph",
+        "actionName": "MovieCharacterGraph",
+        "typeName": "getGraph"
+      }
+    },
+    {
+      // Set graph to loading after submitting filter panel
+      "trigger": "DataVisionTutorial.FilterPanelGraph.FILTER_SUBMIT",
+      "actions": [
+        {
+          "type": "DataVisionTutorial.Graph.DATA_LOADING_SET",
+          "payload": {
+            "componentId": "DataVisionTutorial.Graph",
+            "isDataLoading": true
+          }
+        }
+      ]
+    }
+  ]
+}

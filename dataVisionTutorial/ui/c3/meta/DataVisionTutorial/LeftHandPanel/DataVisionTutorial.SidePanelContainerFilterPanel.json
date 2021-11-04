@@ -1,0 +1,12 @@
+{
+  "type": "UiSdlConnected<UiSdlSidePanelContainer>",
+  "component": {
+    "sidePanel": {
+      "alignment": "LEFT",
+      "id": "DataVisionTutorial.SidePanelFilterPanel"
+    },
+    "child": {
+      "id": "DataVisionTutorial.SidePanelContainerGraph"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type":"UiSdlConnected<UiSdlEmptyState>",
+  "component": {
+    "headerText": {
+      "dynamicValue": "DataVisionTutorial.GraphEmptyState.header.text"
+    },
+    "imageUrl": "/assets/images/empty-state.svg"
+  },
+  "effectTriggers": [
+    {
+      "trigger": "DataVisionTutorial.GraphEmptyState.INITIAL_RENDER",
+      "effectType": "LoadFullGraphInMemoryEpic",
+      "payloadStrategy": "MERGE",
+      "payload": {
+        "componentId": "DataVisionTutorial.Graph",
+        "typeName": "MovieCharacterGraph",
+        "actionName": "loadFullGraphInMemory"
+      }
+    }
+  ]
+}

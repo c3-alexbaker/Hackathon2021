@@ -1,0 +1,13 @@
+id,locale,key,value
+en.DataVisionTutorial.FilterPanelGraph.fieldSets.title,en,DataVisionTutorial.FilterPanelGraph.fieldSets.title,Find Friends
+en.DataVisionTutorial.FilterPanelGraph.fields.name.hintText,en,DataVisionTutorial.FilterPanelGraph.fields.name.hintText,Leave blank to see entire graph
+en.DataVisionTutorial.FilterPanelGraph.fields.name.label,en,DataVisionTutorial.FilterPanelGraph.fields.name.label,Name
+en.DataVisionTutorial.Graph.Toolbar.Display.options.radial.label,en,DataVisionTutorial.Graph.Toolbar.Display.options.radial.label,Radial
+en.DataVisionTutorial.Graph.Toolbar.Display.options.standard.label,en,DataVisionTutorial.Graph.Toolbar.Display.options.standard.label,Standard
+en.DataVisionTutorial.Graph.Toolbar.Display.section.title,en,DataVisionTutorial.Graph.Toolbar.Display.section.title,Display
+en.DataVisionTutorial.Graph.Toolbar.Search.options.search.label,en,DataVisionTutorial.Graph.Toolbar.Search.options.search.label,Find Characters
+en.DataVisionTutorial.Graph.Toolbar.Search.section.title.label,en,DataVisionTutorial.Graph.Toolbar.Search.section.title.label,Search
+en.DataVisionTutorial.GraphEmptyState.header.text,en,DataVisionTutorial.GraphEmptyState.header.text,No data yet
+en.DataVisionTutorial.GraphSidePanel.header.title,en,DataVisionTutorial.GraphSidePanel.header.title,Graph Overview
+en.DataVisionTutorial.NodeSidePanelOverview.fields.description.label,en,DataVisionTutorial.NodeSidePanelOverview.fields.description.label,Description
+en.DataVisionTutorial.NodeSidePanelOverview.fields.name.label,en,DataVisionTutorial.NodeSidePanelOverview.fields.name.label,Name

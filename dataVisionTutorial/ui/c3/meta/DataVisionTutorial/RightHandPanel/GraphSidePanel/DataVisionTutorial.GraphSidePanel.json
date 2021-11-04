@@ -1,0 +1,18 @@
+{
+  "type": "UiSdlConnected<UiSdlSidePanel>",
+  "component": {
+    "alignment": "RIGHT",
+    "closeBehavior": "HIDE",
+    "open": true,
+    "position": "PUSH",
+    "header": {
+      "closeIcon": "times",
+      "title": "DataVisionTutorial.GraphSidePanel.header.title"
+    },
+    "sections": [
+      {
+        "id": "DataVisionTutorial.GraphSidePanelSection"
+      }
+    ]
+  }
+}

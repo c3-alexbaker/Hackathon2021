@@ -1,0 +1,17 @@
+{
+  "type": "UiSdlConnected<UiSdlLayoutDataVisionBasePage>",
+  "applicationStateRef": {
+    "type": "UiSdlApplicationState",
+    "id": "DataVisionTutorial.UiSdlApplicationState"
+  },
+  "component": {
+    "className": "datavision-tutorial",
+    "documentTitle": "Lion King Character Exploration",
+    "navigation": {
+      "id": "DataVisionTutorial.NavMenu"
+    },
+    "content": {
+      "id": "DataVisionTutorial.SidePanelContainerFilterPanel"
+    }
+  }
+}

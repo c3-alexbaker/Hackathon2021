@@ -1,0 +1,19 @@
+{
+  "type": "UiSdlConnected<UiSdlNavMenu>",
+  "component": {
+    "logoImageUrl": "/assets/images/menu/no-text-logo.svg",
+    "itemSections": [
+      {
+        "items": [
+          {
+            "id": "DataVisionTutorial.DataVisionTutorialPage",
+            "icon": "chart-network",
+            "redirectRoute": {
+              "urlPath": "/"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

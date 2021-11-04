@@ -1,0 +1,19 @@
+/**
+ * This is the base component for the [Graph, Node, Edge] SidePanel.  As a ComponentRenderer it will render
+ * whatever component should be renderer based on which component is triggering a side panel.  Clicking a node will
+ * trigger rendering of the NodeSidePanel.
+ */
+{
+  "type": "UiSdlConnected<ComponentRenderer>",
+  "component": {
+    "initialComponent": "DataVisionTutorial.GraphSidePanel",
+    "components": [
+      {
+        "id": "DataVisionTutorial.GraphSidePanel"
+      },
+      {
+        "id": "DataVisionTutorial.NodeSidePanel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "UiSdlConnected<UiSdlSidePanel>",
+  "component": {
+    "alignment": "LEFT",
+    "position": "PUSH",
+    "closeBehavior": "COLLAPSE",
+    "open": true,
+    "header": {
+      "closeIcon": "chevron-double-left",
+      "openIcon": "chevron-double-right"
+    },
+    "sections": [
+      {
+        "id": "DataVisionTutorial.SidePanelSectionFilterPanel"
+      }
+    ]
+  }
+}

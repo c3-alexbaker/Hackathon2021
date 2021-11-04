@@ -1,0 +1,26 @@
+{
+  "type": "UiSdlConnected<UiSdlDefinitionList>",
+  "component": {
+    "dataSpec": {
+      "dataType": "MovieCharacter",
+      "entityId": "${id}",
+      "contextVars": {
+        "id": {
+          "type": "UiSdlApplicationStateValueParam",
+          "id": "DataVisionTutorial.UiSdlApplicationState",
+          "path": "nodeId"
+        }
+      },
+      "fields": [
+        {
+          "label": "DataVisionTutorial.NodeSidePanelOverview.fields.name.label",
+          "fieldName": "name"
+        },
+        {
+          "label": "DataVisionTutorial.NodeSidePanelOverview.fields.description.label",
+          "fieldName": "description"
+        }
+      ]
+    }
+  }
+}

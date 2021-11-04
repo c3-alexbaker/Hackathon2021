@@ -1,0 +1,22 @@
+{
+  "type": "UiSdlConnected<UiSdlImage>",
+  "component": {
+    "horizontalAlign": "center",
+    "size": "medium",
+    "className": "block",
+    "dataSpec": {
+      "dataType": {
+        "typeName": "MovieCharacter"
+      },
+      "entityId": "${id}",
+      "field": "imageUrl",
+      "contextVars": {
+        "id": {
+          "type": "UiSdlApplicationStateValueParam",
+          "id": "DataVisionTutorial.UiSdlApplicationState",
+          "path": "nodeId"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "UiSdlConnected<UiSdlSidePanelContainer>",
+  "component": {
+    "sidePanel": {
+      "alignment": "RIGHT",
+      // ComponentRenderer because we don't know which side panel to render initially
+      "id": "DataVisionTutorial.SidePanelRenderer"
+    },
+    "child": {
+      "id": "DataVisionTutorial.Graph"
+    }
+  }
+}

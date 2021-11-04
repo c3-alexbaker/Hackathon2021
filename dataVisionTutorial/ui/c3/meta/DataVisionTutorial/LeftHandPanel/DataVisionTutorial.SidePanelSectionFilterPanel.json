@@ -1,0 +1,8 @@
+{
+  "type": "UiSdlSidePanelSection",
+  "children": [
+    {
+      "id": "DataVisionTutorial.FilterPanelGraph"
+    }
+  ]
+}

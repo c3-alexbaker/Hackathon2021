@@ -1,0 +1,125 @@
+{
+  "type": "UiSdlConnected<UiSdlDataVisionGraph>",
+  "component": {
+    "dataSpec": {
+      "dataType": {
+        "typeName": "MovieCharacterGraph"
+      },
+      "actionName": "getGraph",
+      "args": {
+        "cacheKey": "${cacheKey}"
+      },
+      "contextVars": {
+        "cacheKey": {
+          "type": "UiSdlComponentStateParam",
+          "path": "cacheKey"
+        }
+      }
+    },
+    "defaultEdgeColor": "#fff",
+    "disableDataRequestOnFirstRender": true,
+    "edgeGlyphConfig": {
+      "label": {
+        "fieldName": "numberOfInteractions"
+      },
+      "thresholdMetColor": "#1B5092",
+      "thresholdNotMetColor": "#1B5092"
+    },
+    "emptyState": {
+      "id": "DataVisionTutorial.GraphEmptyState"
+    },
+    "hasMap": false,
+    "hasTimeBar": false,
+    "layout": {
+      "tightness": 2,
+      "stretch": 3
+    },
+    "nodeImageConfig": {
+      "fieldName": "imageUrl"
+    },
+    "nodeLabelConfig": {
+      "title": {
+        "fieldName": "name"
+      }
+    },
+    "searchField": {
+      "fieldName": "name"
+    },
+    "showEmptyState": true,
+    "toolBarConfig": {
+      "groups": [
+        {
+          "title": "DataVisionTutorial.Graph.Toolbar.Display.section.title",
+          "id": "layout",
+          "options": [
+            {
+              "active": true,
+              "icon": "chart-network",
+              "id": "organic",
+              "label": "DataVisionTutorial.Graph.Toolbar.Display.options.standard.label",
+              "toggleable": false
+            }
+          ]
+        },
+        {
+          "title":"DataVisionTutorial.Graph.Toolbar.Search.section.title.label",
+          "options": [
+            {
+              "id": "search",
+              "label": "DataVisionTutorial.Graph.Toolbar.Search.options.search.label"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "effectTriggers": [
+    {
+      "trigger": "DataVisionTutorial.Graph.CLEAR_GRAPH_CLICK",
+      "effectType": "ClearGraphEpic",
+      "payloadStrategy": "MERGE",
+      "payload": {
+        "componentId": "DataVisionTutorial.Graph"
+      }
+    },
+    {
+      "trigger": "DataVisionTutorial.Graph.GRAPH_CLICK",
+      "effectType": "GraphClickEpic",
+      "payloadStrategy": "MERGE",
+      "payload": {
+        "sidePanelRenderer":"DataVisionTutorial.SidePanelRenderer",
+        "sidePanel": "DataVisionTutorial.GraphSidePanel"
+      }
+    },
+    {
+      "trigger": "DataVisionTutorial.Graph.CLEAR_GRAPH_CLICK",
+      "actions": [
+        {
+          // Simulate a graph click to switch back to graph overview
+          "type": "DataVisionTutorial.Graph.GRAPH_CLICK",
+          "payload": {
+            "componentId": "DataVisionTutorial.Graph"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": "DataVisionTutorial.Graph.NODE_CLICK",
+      "effectType": "NodeClickEpic",
+      "payloadStrategy": "MERGE",
+      "payload": {
+        "applicationStateId": "DataVisionTutorial.UiSdlApplicationState",
+        "sidePanelRenderer":"DataVisionTutorial.SidePanelRenderer",
+        "sidePanel": "DataVisionTutorial.NodeSidePanel"
+      }
+    },
+    {
+      "trigger": "DataVisionTutorial.Graph.EDGE_CLICK",
+      "effectType": "EdgeClickEpic",
+      "payloadStrategy": "MERGE",
+      "payload": {
+        "applicationStateId": "DataVisionTutorial.UiSdlApplicationState"
+      }
+    }
+  ]
+}

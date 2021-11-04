@@ -1,0 +1,17 @@
+{
+  "type": "UiSdlConnected<UiSdlSidePanel>",
+  "component": {
+    "alignment": "RIGHT",
+    "position": "PUSH",
+    "open": true,
+    "closeBehavior": "HIDE",
+    "sections": [
+      {
+        "id": "DataVisionTutorial.NodeSidePanelSectionImage"
+      },
+      {
+        "id": "DataVisionTutorial.NodeSidePanelSectionOverview"
+      }
+    ]
+  }
+}
