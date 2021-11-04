@@ -1,5 +1,5 @@
 {
-  "name": "dataVisionTutorial",
+  "name": "dataVisionMetrics",
   "author": "Dylan Ferris",
   "dependencies": ["dataVisionBase"],
   "description": "A tutorial package for how to build a graph visualization"

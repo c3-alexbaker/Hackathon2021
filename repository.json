@@ -1,8 +1,9 @@
 {
-  "name": "base",
+  "name": "Hackathon2021",
   "version": "7.28.0",
   "description": "Base C3 Application Packages",
   "dependencies": {
-    "server": "7.28.0.282"
+    "server": "7.26.0.282",
+    "base": "7.28.0"
   }
 }
