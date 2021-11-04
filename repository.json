@@ -1,0 +1,8 @@
+{
+  "name": "base",
+  "version": "7.28.0",
+  "description": "Base C3 Application Packages",
+  "dependencies": {
+    "server": "7.28.0.282"
+  }
+}
