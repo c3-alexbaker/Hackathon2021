@@ -14,7 +14,7 @@ type TransformCanonicalMetricInfoPointToMetricInfoPoint mixes MetricInfoPoint tr
   /**
    * The ID of this {@link MetricInfoPoint} type
    */
-  id: ~ expression "concat('MTRC_INF_PNT', MetricInfo, '_', TypeName, '_', EntityId, '_', UserGroup)"
+  id: ~ expression "concat('MTRC_INF_PNT', Metric, '_', TypeName, '_', EntityId, '_', UserGroup)"
 
   /**
    * The {@link Type} that invoked the {@link Metric}
@@ -39,5 +39,5 @@ type TransformCanonicalMetricInfoPointToMetricInfoPoint mixes MetricInfoPoint tr
   /**
    * The {@link MetricInfo} that this {@link MetricInfoPoint} is associated with
    */
-  metricInfo: ~ expression "MericInfo"
+  metricInfo: ~ expression "concat('MTRC_INF_', Metric)"
 }

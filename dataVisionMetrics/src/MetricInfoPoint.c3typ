@@ -9,7 +9,7 @@
 /**
  * This type is information about a specific metric invocations.
  */
-entity type MetricInfo schema name 'MTRC_INF' {
+entity type MetricInfoPoint schema name 'MTRC_INF_PNT' {
   /**
    * The {@link Type} that invoked the {@link Metric}
    */
