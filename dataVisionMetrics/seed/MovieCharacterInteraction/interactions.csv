@@ -11,3 +11,15 @@ id,from,to,edgeWeight
 211,SmartMeterType,smartMeter2,1
 212,SmartMeterType,smartMeter3,2
 214,SmartMeterType,smartMeter4,1
+2,organization1,DeveloperGroup1,25
+3,organization1,EndUserGroup1,27
+4,organization1,DataScienceGroup1,4
+5,organization2,EndUserGroup2,3
+6,facility1,DeveloperGroup2,17
+7,facility2,DeveloperGroup3,11
+8,facility2,EndUserGroup3,2
+9,facility3,DeveloperGroup4,4
+10,smartMeter1,DataScienceGroup2,3
+11,smartMeter2,DataScienceGroup3,1
+12,smartMeter3,DataScienceGroup4,2
+13,smartMeter4,DataScienceGroup5,1

@@ -12,3 +12,15 @@ smartMeter4,smartMeter4,Instance,smartMeter4,Most Common Interval: Week,,1:11,as
 OrganizationType,OrganizationType,Type,c3Type: Organization,Key Entities: organization1,,1:11,assets/images/yellow.png,test
 FacilityType,FacilityType,Type,c3Type: Facility,"Key Entities: Facility1, Facility2",,1:11,assets/images/yellow.png,test
 SmartMeterType,SmartMeterType,Type,c3Type: SmartMeter,Key Entities: smartMeter1,,1:11,assets/images/yellow.png,test
+DeveloperGroup1,DeveloperGroup,group,User Group: Developer,# unique users: ,,1:11,,
+EndUserGroup1,EndUserGroup,group,User Group: End User,# unique users: ,,1:11,,
+DataScienceGroup1,DataScienceGroup,group,User Group: Data Science,# unique users: ,,1:11,,
+DeveloperGroup2,DeveloperGroup,group,User Group: Developer,# unique users: ,,1:11,,
+EndUserGroup2,EndUserGroup,group,User Group: End User,# unique users: ,,1:11,,
+DataScienceGroup2,DataScienceGroup,group,User Group: Data Science,# unique users: ,,1:11,,
+DeveloperGroup3,DeveloperGroup,group,User Group: Developer,# unique users: ,,1:11,,
+EndUserGroup3,EndUserGroup,group,User Group: End User,# unique users: ,,1:11,,
+DeveloperGroup4,DeveloperGroup,group,User Group: Developer,# unique users: ,,1:11,,
+DataScienceGroup3,DataScienceGroup,group,User Group: Data Science,# unique users: ,,1:11,,
+DataScienceGroup4,DataScienceGroup,group,User Group: Data Science,# unique users: ,,1:11,,
+DataScienceGroup5,DataScienceGroup,group,User Group: Data Science,# unique users: ,,1:11,,
