@@ -16,7 +16,7 @@
                 "inputElement": {
                   "dataSpec": {
                     "dataType": {
-                      "typeName": "MovieCharacter"
+                      "typeName": "MetricInfo"
                     },
                     "actionName": "fetch",
                     "args": {
