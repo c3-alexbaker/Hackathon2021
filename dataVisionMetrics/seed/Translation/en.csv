@@ -1,7 +1,7 @@
 id,locale,key,value
-en.DataVisionTutorial.FilterPanelGraph.fieldSets.title,en,DataVisionTutorial.FilterPanelGraph.fieldSets.title,Find Friends
+en.DataVisionTutorial.FilterPanelGraph.fieldSets.title,en,DataVisionTutorial.FilterPanelGraph.fieldSets.title,Select Metric
 en.DataVisionTutorial.FilterPanelGraph.fields.name.hintText,en,DataVisionTutorial.FilterPanelGraph.fields.name.hintText,Leave blank to see entire graph
-en.DataVisionTutorial.FilterPanelGraph.fields.name.label,en,DataVisionTutorial.FilterPanelGraph.fields.name.label,Name
+en.DataVisionTutorial.FilterPanelGraph.fields.name.label,en,DataVisionTutorial.FilterPanelGraph.fields.name.label,Metric
 en.DataVisionTutorial.Graph.Toolbar.Display.options.radial.label,en,DataVisionTutorial.Graph.Toolbar.Display.options.radial.label,Radial
 en.DataVisionTutorial.Graph.Toolbar.Display.options.standard.label,en,DataVisionTutorial.Graph.Toolbar.Display.options.standard.label,Standard
 en.DataVisionTutorial.Graph.Toolbar.Display.section.title,en,DataVisionTutorial.Graph.Toolbar.Display.section.title,Display
