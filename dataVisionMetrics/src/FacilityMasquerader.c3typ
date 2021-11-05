@@ -1,0 +1,8 @@
+/*
+ * This type masquerades as a {@link Facility} to contain custom evalMetric/evalMetrics functions that will create {@link MetricInfoPoint} objects whenever a metric runs
+ */
+type FacilityMasquerader {
+    evalMetric: function(spec: EvalMetricSpec): Obj js server
+
+    evalMetrics: function(spec: EvalMetricsSpec): EvalMetricsResult js server
+}
