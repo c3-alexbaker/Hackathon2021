@@ -20,4 +20,6 @@ type TransformCanonicalMovieCharacterToMovieCharacter mixes MovieCharacter trans
    * {@link CanonicalMovieCharacter.firstShown}
    */
   firstShown: ~ expression "firstShown"
+
+  subType: ~ expression "subType"
 }
