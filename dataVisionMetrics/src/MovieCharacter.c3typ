@@ -10,25 +10,11 @@
  * A character in a movie
  */
 entity type MovieCharacter schema name 'MVECHRCTR' {
-  /**
-   * The description of this character
-  */
-  description: clob
-
-  /**
-   * The name of the character
-   */
   name: string
-
-  /**
-   * The time in the movie when this character was first shown
-   */
-  firstShown: string
-
-  /**
-   * The location of this Movie Character's image
-   */
-  imageUrl: string
-
   subType: string
+  displayField1: string
+  displayField2: string
+  firstShown: string
+  imageUrl: string
+  description: string
 }

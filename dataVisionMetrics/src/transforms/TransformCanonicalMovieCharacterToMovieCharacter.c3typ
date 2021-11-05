@@ -11,15 +11,11 @@
  * {@link MovieCharacter} type.
  */
 type TransformCanonicalMovieCharacterToMovieCharacter mixes MovieCharacter transforms CanonicalMovieCharacter {
-  /**
-   * {@link CanonicalMovieCharacter.name}
-   */
   name: ~ expression "name"
-
-  /**
-   * {@link CanonicalMovieCharacter.firstShown}
-   */
-  firstShown: ~ expression "firstShown"
-
   subType: ~ expression "subType"
+  displayField1: ~ expression "displayField1"
+  displayField2: ~ expression "displayField2"
+  firstShown: ~ expression "firstShown"
+  imageUrl: ~ expression "imageUrl"
+  description: ~ expression "description"
 }

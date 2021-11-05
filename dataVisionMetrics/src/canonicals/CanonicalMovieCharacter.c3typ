@@ -10,15 +10,11 @@
  * This type represents the raw data that will represent {@link CanonicalMovieCharacter} information.
  */
 type CanonicalMovieCharacter mixes Canonical<MovieCharacter> {
-  /**
-   * {@link MovieCharacter.name}
-   */
   name: string
-
-  /**
-   * {@link MovieCharacter.firstShown}
-   */
-  firstShown: string
-
   subType: string
+  displayField1: string
+  displayField2: string
+  firstShown: string
+  imageUrl: string
+  description: string
 }
