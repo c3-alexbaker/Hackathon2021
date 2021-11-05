@@ -29,4 +29,6 @@ entity type MovieCharacter schema name 'MVECHRCTR' {
    * The location of this Movie Character's image
    */
   imageUrl: string
+
+  subType: string
 }
