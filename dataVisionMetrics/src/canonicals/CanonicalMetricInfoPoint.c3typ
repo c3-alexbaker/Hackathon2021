@@ -33,5 +33,5 @@ type CanonicalMetricInfoPoint mixes Canonical<MetricInfoPoint> {
   /**
    * The {@link MetricInfo} that this {@link MetricInfoPoint} is associated with
    */
-  MetricInfo: string
+  Metric: string
 }
