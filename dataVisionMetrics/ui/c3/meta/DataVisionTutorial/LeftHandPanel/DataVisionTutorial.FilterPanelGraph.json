@@ -4,7 +4,7 @@
     "dataSpec": {
       "fieldSets": [
         {
-          "title": "DataVisionTutorial.FilterPanelGraph.fieldSets.title",
+          "title": "DataVisionTutorial.FilterPanelGraph.fieldSets.titleMetric",
           "fields": [
             {
               "type": "UiSdlFieldSetFilterFieldSetting",
@@ -22,7 +22,40 @@
                     "args": {
                       "spec": {
                         "order": "name",
-                        "include": "id, name"
+                        "include": "id, name", 
+                        "filter": "name == 'ElectricityConsumption' || name == 'ElectricityEmissions'" 
+                      }
+                    },
+                    "dataPath": "objs",
+                    "valueField": "id",
+                    "displayField": "name"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "title": "DataVisionTutorial.FilterPanelGraph.fieldSets.title",
+          "fields": [
+            {
+              "type": "UiSdlFieldSetFilterFieldSetting",
+              "fieldName": "idType", /////////////////
+              "label": "DataVisionTutorial.FilterPanelGraph.fields.name.labelType",
+              "hintText": "DataVisionTutorial.FilterPanelGraph.fields.name.hintText",
+              "filterElement": {
+                "type": "UiSdlSingleSearchFilterField",
+                "inputElement": {
+                  "dataSpec": {
+                    "dataType": {
+                      "typeName": "MovieCharacter"
+                    },
+                    "actionName": "fetch",
+                    "args": {
+                      "spec": {
+                        "order": "name",
+                        "include": "id, name",
+                        "filter": "name == 'OrganizationType' || name == 'FacilityType || name == 'SmartMeterType'" 
                       }
                     },
                     "dataPath": "objs",

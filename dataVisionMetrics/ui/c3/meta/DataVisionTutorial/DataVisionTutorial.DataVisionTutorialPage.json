@@ -6,7 +6,7 @@
   },
   "component": {
     "className": "datavision-tutorial",
-    "documentTitle": "Lion King Character Exploration",
+    "documentTitle": "Metric Usage Exploration",
     "navigation": {
       "id": "DataVisionTutorial.NavMenu"
     },

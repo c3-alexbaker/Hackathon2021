@@ -1,11 +1,13 @@
 id,locale,key,value
-en.DataVisionTutorial.FilterPanelGraph.fieldSets.title,en,DataVisionTutorial.FilterPanelGraph.fieldSets.title,Select Metric
+en.DataVisionTutorial.FilterPanelGraph.fieldSets.titleMetric,en,DataVisionTutorial.FilterPanelGraph.fieldSets.titleMetric,Select Metric
 en.DataVisionTutorial.FilterPanelGraph.fields.name.hintText,en,DataVisionTutorial.FilterPanelGraph.fields.name.hintText,Leave blank to see entire graph
 en.DataVisionTutorial.FilterPanelGraph.fields.name.label,en,DataVisionTutorial.FilterPanelGraph.fields.name.label,Metric
+en.DataVisionTutorial.FilterPanelGraph.fieldSets.titleType,en,DataVisionTutorial.FilterPanelGraph.fieldSets.titleType,Select Type
+en.DataVisionTutorial.FilterPanelGraph.fields.name.labelType,en,DataVisionTutorial.FilterPanelGraph.fields.name.labelType,Type
 en.DataVisionTutorial.Graph.Toolbar.Display.options.radial.label,en,DataVisionTutorial.Graph.Toolbar.Display.options.radial.label,Radial
 en.DataVisionTutorial.Graph.Toolbar.Display.options.standard.label,en,DataVisionTutorial.Graph.Toolbar.Display.options.standard.label,Standard
 en.DataVisionTutorial.Graph.Toolbar.Display.section.title,en,DataVisionTutorial.Graph.Toolbar.Display.section.title,Display
-en.DataVisionTutorial.Graph.Toolbar.Search.options.search.label,en,DataVisionTutorial.Graph.Toolbar.Search.options.search.label,Find Characters
+en.DataVisionTutorial.Graph.Toolbar.Search.options.search.label,en,DataVisionTutorial.Graph.Toolbar.Search.options.search.label,Find Metrics and Types
 en.DataVisionTutorial.Graph.Toolbar.Search.section.title.label,en,DataVisionTutorial.Graph.Toolbar.Search.section.title.label,Search
 en.DataVisionTutorial.GraphEmptyState.header.text,en,DataVisionTutorial.GraphEmptyState.header.text,No data yet
 en.DataVisionTutorial.GraphSidePanel.header.title,en,DataVisionTutorial.GraphSidePanel.header.title,Graph Overview
