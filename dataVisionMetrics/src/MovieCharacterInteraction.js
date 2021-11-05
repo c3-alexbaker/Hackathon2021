@@ -30,7 +30,7 @@ function afterCreate(objs) {
       relation = MovieCharacterRelation.make({
         from: from,
         to: to,
-        numberOfInteractions: 1
+        numberOfInteractions: interaction.edgeWeight
       });
       relationsMap[relationKey] = relation;
     } else if (currentBatchRelation) {
@@ -40,7 +40,7 @@ function afterCreate(objs) {
       currentBatchRelation.numberOfInteractions++;
     } else if (relationExistsInDatabase) {
       relation = getExistingRelation(from, to);
-      relation = relation.putField("numberOfInteractions", relation.numberOfInteractions + 1);
+      relation = relation.putField("numberOfInteractions", interaction.edgeWeight);
       /**
        * Leverage the relationsMap object to track the relation incase we see it again.  The else if block before this will
        * make sure we don't query the data base again and get "stale" data

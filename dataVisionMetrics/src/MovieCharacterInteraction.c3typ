@@ -14,6 +14,7 @@ entity type MovieCharacterInteraction mixes Relation<MovieCharacter> schema name
    * Once two {@link MovieCharacter}s interact create a {@link MovieCharacterRelation} between the two characters.  If
    * a relation exists update the {@link MovieCharacterRelation.numberOfInteractions}
    */
-  @dependency(include="id, to.id, from.id")
+  @dependency(include="id, to.id, from.id, edgeWeight")
   afterCreate: ~ js server
+  edgeWeight: int
 }

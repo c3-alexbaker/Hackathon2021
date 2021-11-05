@@ -7,9 +7,6 @@
     "closeBehavior": "HIDE",
     "sections": [
       {
-        "id": "DataVisionTutorial.NodeSidePanelSectionImage"
-      },
-      {
         "id": "DataVisionTutorial.NodeSidePanelSectionOverview"
       }
     ]

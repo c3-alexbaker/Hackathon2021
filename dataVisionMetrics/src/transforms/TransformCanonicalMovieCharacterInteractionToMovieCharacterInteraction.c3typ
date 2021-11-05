@@ -25,4 +25,6 @@ type TransformCanonicalMovieCharacterInteractionToMovieCharacterInteraction mixe
    * {@link CanonicalMovieCharacterInteraction.to}
    */
   to: ~ expression {id: "to"}
+
+  edgeWeight: ~ expression "edgeWeight"
 }

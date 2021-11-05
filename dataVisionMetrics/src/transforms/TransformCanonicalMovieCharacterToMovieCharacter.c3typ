@@ -15,6 +15,7 @@ type TransformCanonicalMovieCharacterToMovieCharacter mixes MovieCharacter trans
   subType: ~ expression "subType"
   displayField1: ~ expression "displayField1"
   displayField2: ~ expression "displayField2"
+  displayField3: ~ expression "displayField3"
   firstShown: ~ expression "firstShown"
   imageUrl: ~ expression "imageUrl"
   description: ~ expression "description"

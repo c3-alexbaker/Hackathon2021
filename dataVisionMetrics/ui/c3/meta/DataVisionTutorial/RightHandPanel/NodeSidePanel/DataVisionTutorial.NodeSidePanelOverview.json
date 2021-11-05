@@ -14,11 +14,11 @@
       "fields": [
         {
           "label": "DataVisionTutorial.NodeSidePanelOverview.fields.name.label",
-          "fieldName": "name"
+          "fieldName": "displayField1"
         },
         {
           "label": "DataVisionTutorial.NodeSidePanelOverview.fields.description.label",
-          "fieldName": "description"
+          "fieldName": "displayField2"
         }
       ]
     }
