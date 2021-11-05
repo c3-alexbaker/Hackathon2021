@@ -7,7 +7,7 @@
  */
 
 function getGraph(cacheKey, centerVertex) {
-  var graph = MovieCharacterGraph.make({ m_cacheKey: cacheKey });
+  var graph = MetricInfoGraph.make({ m_cacheKey: cacheKey });
   var edges;
   var vertices;
   if (!centerVertex.id) {
